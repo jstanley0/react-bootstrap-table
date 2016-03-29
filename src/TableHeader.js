@@ -45,7 +45,7 @@ class TableHeader extends React.Component{
     this._attachClearSortCaretFunc();
 
     return(
-      <div className={containerClasses}>
+      <div className={containerClasses} aria-hidden="true">
         <table className={tableClasses}>
           <thead>
             <tr ref="header">
