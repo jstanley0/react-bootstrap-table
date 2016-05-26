@@ -109,6 +109,7 @@ class BootstrapTable extends React.Component{
     var columns = childrens.map(function(column, i){
       return {
         name: column.props.dataField,
+        friendlyName: column.props.children,
         align: column.props.dataAlign,
         sort: column.props.dataSort,
         format: column.props.dataFormat,
